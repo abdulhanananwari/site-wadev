@@ -138,9 +138,9 @@
                           <div class="col-md-6 ml-auto mr-auto">
                             <img src="assets/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                           </div>
-                          <h4 class="card-title">Gigi Hadid
+                          <h4 class="card-title">Gigis Lestari
                             <br>
-                            <small class="card-description text-muted">Model</small>
+                            <small class="card-description text-muted">COET</small>
                           </h4>
                           <div class="card-body">
                             <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
@@ -160,7 +160,7 @@
                           <div class="col-md-6 ml-auto mr-auto">
                             <img src="assets/img/faces/christian.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                           </div>
-                          <h4 class="card-title">Christian Louboutin
+                          <h4 class="card-title">Dani Setiawan
                             <br>
                             <small class="card-description text-muted">Designer</small>
                           </h4>
@@ -181,7 +181,7 @@
                           <div class="col-md-6 ml-auto mr-auto">
                             <img src="assets/img/faces/kendall.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                           </div>
-                          <h4 class="card-title">Kendall Jenner
+                          <h4 class="card-title">Kensah Voferah
                             <br>
                             <small class="card-description text-muted">Model</small>
                           </h4>
@@ -201,29 +201,98 @@
                 </div>
               </div>
         </div>
+        
     </div>
   </div>
 </div>
+<div class="subscribe-line subscribe-line-image" data-parallax="true" style="background-image: url('assets/img/deve.jpg');no-repeat;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 ml-auto mr-auto">
+				<div class="text-center">
+					<h3 class="title">Subscribe to our Newsletter</h3>
+					<p class="description">
+						Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
+					</p>
+				</div>
 
-<footer class="footer footer-default" >
-  <div class="container">
-    <nav class="float-left">
-      <ul>
-        <li>
-          <a href="https://wadev.com/">
-              wadev developer team
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="copyright float-right">
-        &copy;
-        <script>
-            document.write(new Date().getFullYear())
-        </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://www.creative-tim.com/" target="blank">Creative Tim</a> for a better web.
-    </div>
-  </div>
+				<div class="card card-raised card-form-horizontal">
+					<div class="card-body">
+						<form method="" action="">
+							<div class="row">
+								<div class="col-sm-8">
+
+									<span class="bmd-form-group"><div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                          <i class="material-icons">mail</i>
+                      </span>
+                    </div>
+										<input type="text" class="form-control" placeholder="Your Email...">
+									</div></span>
+								</div>
+								<div class="col-sm-4">
+									<button type="button" class="btn btn-rose btn-block">Subscribe</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer footer-black footer-big">
+	<div class="container">
+
+		<div class="content">
+			<div class="row">
+				<div class="col-md-4">
+					<h5>About Us</h5>
+					<p>Creative Tim is a startup that creates design tools that make the web development process faster and easier. </p> <p>We love the web and care deeply for how users interact with a digital product. We power businesses and individuals to create better looking web projects around the world. </p>
+				</div>
+
+				<div class="col-md-4">
+					<h5>Social Feed</h5>
+					<div class="social-feed">
+						<div class="feed-line">
+							<i class="fa fa-twitter"></i>
+							<p>How to handle ethical disagreements with your clients.</p>
+						</div>
+						<div class="feed-line">
+							<i class="fa fa-twitter"></i>
+							<p>The tangible benefits of designing at 1x pixel density.</p>
+						</div>
+						<div class="feed-line">
+							<i class="fa fa-facebook-square"></i>
+							<p>A collection of 25 stunning sites that you can use for inspiration.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<hr>
+
+		<ul class="float-left">
+			<li>
+				<a href="http://wadev.rf.gd">
+				   Blog
+				</a>
+			</li>
+			<li>
+				<a href="#pablo">
+					Contact Us
+				</a>
+			</li>
+		</ul>
+
+		<div class="copyright float-right">
+			Copyright © <script>document.write(new Date().getFullYear())</script> Wadev Tim All Rights Reserved.
+		</div>
+	</div>
 </footer>
 <!--   Core JS Files   -->
 <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
