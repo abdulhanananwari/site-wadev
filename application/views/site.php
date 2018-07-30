@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>Wadev solution</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="web developer, bandung web developer, consultant it bandung">
+    <meta name="keywords" content="web developer, bandung web developer, consultant it bandung">
     <!--  Fonts and icons  -->
       <!--     Fonts and icons     -->
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
     <!-- Material Kit CSS -->
     <link href="assets/css/material-kit.css?v=2.0.4" rel="stylesheet" />
@@ -17,7 +19,7 @@
   <body>
       <nav class="navbar fixed-top navbar-expand-lg bg-info">
           <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">WD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon"></span>
@@ -103,7 +105,7 @@
                         <div class="icon icon-danger">
                           <i class="material-icons">computer</i>
                         </div>
-                        <h4 class="info-title">Fingerprint</h4>
+                        <h4 class="info-title">Application</h4>
                         <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                       </div>
                     </div>
@@ -136,15 +138,14 @@
                       <div class="team-player">
                         <div class="card card-plain">
                           <div class="col-md-6 ml-auto mr-auto">
-                            <img src="assets/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                            <img src="assets/img/team/gg.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                           </div>
                           <h4 class="card-title">Gigis Lestari
                             <br>
-                            <small class="card-description text-muted">COET</small>
+                            <small class="card-description text-muted">CEO</small>
                           </h4>
                           <div class="card-body">
-                            <p class="card-description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some
-                              <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                            <p class="card-description">Mahasiswi BSI yang menjelma menjadi seorang fullstack developer</p>
                           </div>
                           <div class="card-footer justify-content-center">
                             <a href="#pablo" class="btn btn-link btn-just-icon"><i class="fa fa-twitter"></i></a>
@@ -179,7 +180,7 @@
                       <div class="team-player">
                         <div class="card card-plain">
                           <div class="col-md-6 ml-auto mr-auto">
-                            <img src="assets/img/faces/kendall.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                            <img src="assets/img/team/kensah.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                           </div>
                           <h4 class="card-title">Kensah Voferah
                             <br>
