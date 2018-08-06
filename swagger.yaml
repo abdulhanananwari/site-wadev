@@ -1,0 +1,157 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: "Wadev company profile"
+  description: api for intern developer
+  license:
+    name: MIT
+    url: https://github.com/apiaryio/polls-api/blob/master/LICENSE
+host: localhost:3000
+basePath: /wadev/admin/api/
+schemes:
+- http
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /personnel:
+    x-summary: Personnels Collection
+    get:
+      summary: List Personnels
+      parameters:
+        - name: name
+          in: query
+          description: personnel name
+          type: number
+          required: false
+        - name: page
+          in: query
+          type: number
+        - name: pagination
+          in: query
+          type: number
+      responses:
+        200:
+          description: Successful
+          schema:
+            type: object
+            properties:
+              data:
+                type: array
+                items:
+                  $ref: '#/definitions/Personnel'
+              meta:
+                type: object
+    post:
+      summary: Create a New Personnel
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/PersonnelRequest'
+      responses:
+        201:
+          description: Created a new personnel
+          schema:
+            type: object
+            properties:
+              data:
+                $ref: '#/definitions/Personnel'
+              meta:
+                type: object
+  /personnel/{personnelId}:
+    get:
+      summary: Get personnel by id 
+      parameters:
+      - name: "personnelId"
+        in: "path"
+        description: "personnel id"
+        required: true
+        type: number
+      responses:
+        200:
+          description: Successful
+          schema:
+            type: object
+            properties:
+              data:
+                $ref: "#/definitions/Personnel"
+              meta:
+                type: object
+        401:
+          description: Unauthorization
+        403:
+          description: Forbidden
+        404:
+          description: Not found
+    put:
+      summary:  update a  personnel
+      parameters:
+        - name: "personnelId"
+          in: "path"
+          description: "personnel id"
+          required: true
+          type: number
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/PersonnelRequest'
+      responses:
+        201:
+          description: Created a new personnel
+          schema:
+            type: object
+            properties:
+              data:
+                $ref: '#/definitions/Personnel'
+              meta:
+                type: object
+    delete:
+      summary: delete personnel by id
+      parameters:
+      - name: "personnelId"
+        in: "path"
+        description: "personnel id"
+        required: true
+        type: number
+      responses:
+        204:
+          description: successful
+definitions:
+  Personnel:
+    title: Personnel
+    type: object
+    properties:
+      id:
+        type: number
+      name:
+        type: string
+      description:
+        type: string
+      active:
+        type: boolean
+      positions:
+        type: string
+      created_at:
+        format: date-time
+        type: string
+  PersonnelRequest:
+    title: Personnel Request
+    type: object
+    properties:
+      id:
+        type: number
+      name:
+        type: string
+      description:
+        type: string
+      active:
+        type: boolean
+      positions:
+        type: string
+      created_at:
+        format: date-time
+        type: string
